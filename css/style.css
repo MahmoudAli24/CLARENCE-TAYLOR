@@ -1,0 +1,126 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.saira,
+h1 {
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+h1 {
+  font-size: calc(1.725rem + 5.7vw) !important;
+}
+hr {
+  border: none;
+  background-color: #6c757d;
+  height: 1px;
+}
+
+/* Start Navbar */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 272px;
+  background-color: #bd5d38;
+}
+.content {
+  margin-left: 272px;
+}
+.sidebar .links a {
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.8px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.sidebar .links a:hover {
+  color: #fff;
+}
+.navbar-toggler {
+  color: rgba(255, 255, 255, 0.55) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+@media (max-width: 991px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: sticky !important ;
+    height: auto !important;
+  }
+  .content {
+    margin-left: 0;
+  }
+}
+/* End Navbar */
+/* Start About */
+@media (max-width: 991px) {
+  .about {
+    height: calc(100vh - 56px);
+  }
+}
+
+.text-special {
+  color: #bd5d38 !important;
+}
+.address {
+  font-weight: 500;
+  color: #6c757d;
+  font-size: 19px;
+  letter-spacing: -1px;
+}
+.address a {
+  font-size: 23px;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+  color: #6c757d;
+}
+.social-icons .social-icon {
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  background-color: #495057;
+}
+.social-icons .social-icon:hover {
+  background-color: #bd5d38;
+  color: #fff;
+}
+/* End About */
+
+h2 {
+  font-size: 51px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #343a40;
+}
+.fs-53 {
+  font-size: 53px;
+}
+/* componants */
+.img-profile {
+  border: 8px solid rgba(255, 255, 255, 0.2);
+}
+.c-white {
+  color: #fff;
+}
+.c-page {
+  color: #bd5d38 !important;
+}
+.p-color {
+  color: #6c757d;
+}
+.active {
+  color: #fff !important;
+  text-transform: capitalize;
+}
+
+/* componants */
+
+/* Start componants Media */
+@media (min-width: 992px) {
+  .w-lg-100 {
+    width: 100%;
+  }
+}
+
+/* End componants Media */
